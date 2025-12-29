@@ -5,7 +5,7 @@ export const Logo: React.FC<{ className?: string }> = ({ className = "" }) => {
   return (
     <div className={`relative flex items-center justify-center ${className}`}>
       <img 
-        src="/images/logo.png" 
+        src="./images/logo.png" 
         alt="The Art Daycare Logo" 
         className="w-full h-full object-contain"
       />

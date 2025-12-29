@@ -4,11 +4,11 @@ import React from 'react';
 // Place your actual image files in the 'public/images/' folder of your project.
 // Example: public/images/photo1.jpg, public/images/photo2.jpg, etc.
 const LOCAL_IMAGES = [
-  "/images/photo1.jpg",
-  "/images/photo2.jpg",
-  "/images/photo3.jpg",
-  "/images/photo4.jpg",
-  "/images/photo5.jpg",
+  "./images/photo1.jpg",
+  "./images/photo2.jpg",
+  "./images/photo3.jpg",
+  "./images/photo4.jpg",
+  "./images/photo5.jpg",
 ];
 
 export const Gallery: React.FC = () => {
