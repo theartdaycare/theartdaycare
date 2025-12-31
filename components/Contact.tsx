@@ -15,7 +15,7 @@ export const Contact: React.FC = () => {
   });
 
   // NOTE: Paste your Google Apps Script Web App URL here
-  const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxKLEGQKMXPusHqloqsojQeZ08ogRzjrpVh6qNkBQnXdnqYTtwz-wPldutr_tuZ-MQVvQ/exec"; 
+  const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyI6yTuEIXun3zRW3iVv6pu_0HrPBJknXqZ3WgmVgIFDl39LD09gB0frlWR7FOUbpbGYw/exec"; 
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
